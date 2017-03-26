@@ -1,0 +1,101 @@
+.long-link {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+html * {
+    font-family: 'Montserrat', sans-serif;
+}
+body, html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    background: transparent;
+}
+
+#homeView {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.view {
+    margin-top: 50px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.feature {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+}
+
+.safari .feature {
+    background-attachment: local;
+    background-position: center;
+}
+
+.feature .jumbotron {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.feature .jumbotron>div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feature .jumbotron h1 {
+    font-weight: 600;
+}
+
+.feature .jumbotron h3 {
+    font-weight: 600;
+}
+
+.feature>* {
+    background: transparent;
+}
+
+div.header {
+    padding-top: 100px;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
+
+div.row>div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.jumbotron.footer {
+    color: rgb(230, 230, 230);
+    background-color: rgb(51, 51, 51);
+}
+
+.jumbotron.footer p {
+    font-size: 12px;
+}
+
+#faq .panel {
+    cursor: pointer;
+}
+
+#faq .panel-body {
+    display: none;
+}
+
+#faq .panel.selected .panel-body {
+    display: block;
+}

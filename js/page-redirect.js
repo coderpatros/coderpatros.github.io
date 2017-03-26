@@ -1,0 +1,1 @@
+window.location.replace("/#page-" + decodeURIComponent(/^\/page\/(.*)\.html$/.exec(window.location.pathname)[1]));
